@@ -1,0 +1,29 @@
+print("""\nTampilkan opsi
+ 1. fibo
+ 2. prima""")
+
+pilihan = int(input('Pilihan: '))
+angka = int(input("masukan angka : "))
+
+if pilihan
+fibo = [0,1]
+for i in range(2, angka):
+        indeks1 = fibo[i-2]
+        indeks2 = fibo[i-1]
+        fibo2 = indeks1 + indeks2
+        fibo.append(fibo2)
+print(fibo)
+
+awal = int(input('Masukan awal: '))
+akhir = int(input('Masukan akhir: '))
+
+list_angka = [i for i in range(awal, akhir + 1)]
+
+prima = []
+for i in list_angka:
+    if (i == 2 or i == 3 or i == 5 or i == 7) or (i % 2 != 0 and i % 3 != 0 and i % 5 != 0 and i % 7 != 0):
+        prima.append(i)
+
+print(prima)
+
+
